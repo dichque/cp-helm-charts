@@ -91,8 +91,8 @@ prometheus:
   ## ref: https://github.com/prometheus/jmx_exporter
   jmx:
     enabled: true
-    image: solsson/kafka-prometheus-jmx-exporter@sha256
-    imageTag: a23062396cd5af1acdf76512632c20ea6be76885dfc20cd9ff40fb23846557e8
+    image: containers.cisco.com/jaganaga/kafka-prometheus-jmx-exporter
+    imageTag: v1-nonroot
     port: 5556
 
 nodeport:
